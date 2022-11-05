@@ -6,6 +6,5 @@ public class Always
     [TestMethod]
     public void AlwaysPass()
     {
-        Assert.Fail();
     }
 }
