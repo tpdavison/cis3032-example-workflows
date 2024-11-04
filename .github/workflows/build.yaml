@@ -1,6 +1,8 @@
 name: build
 
-on: [push]
+on:
+  push: # any branch push triggers
+  workflow_dispatch: # enables manual triggering in GitHub UI
 
 env:
   DOTNET_VERSION: 6.0.x
